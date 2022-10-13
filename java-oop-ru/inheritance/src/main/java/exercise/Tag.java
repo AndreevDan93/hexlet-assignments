@@ -5,18 +5,15 @@ import java.util.Map;
 
 // BEGIN
 abstract class Tag {
-    String attribute;
-    Object value;
+    String name;
+    Map<String, String> attribute;
 
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("<" + attribute);
-        if (value instanceof String) {
-            builder.append("=\"" + this.value + "\"");
-        }
-        if (value instanceof Map<?, ?>) {
-            for (Map.Entry<?, ?> entry : ((Map<?, ?>) value).entrySet()) {
+        builder.append("<").append(name);
+        if (attribute != null) {
+            for (Map.Entry<?, ?> entry : ((Map<?, ?>) attribute).entrySet()) {
                 builder.append(" ")
                         .append(entry.getKey())
                         .append("=\"")
@@ -29,4 +26,5 @@ abstract class Tag {
         return builder.toString();
     }
 }
+
 // END

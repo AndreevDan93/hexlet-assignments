@@ -3,10 +3,16 @@ package exercise;
 import java.util.Map;
 
 // BEGIN
-class SingleTag extends Tag {
-    public SingleTag(String attribute, Object value) {
+class SingleTag extends Tag{
+
+    public SingleTag(String name, Map<String, String> attribute) {
         this.attribute = attribute;
-        this.value = value;
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
 // END
