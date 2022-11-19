@@ -1,0 +1,32 @@
+нояб. 19, 2022 2:43:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+нояб. 19, 2022 2:43:46 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+нояб. 19, 2022 2:43:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+нояб. 19, 2022 2:43:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+нояб. 19, 2022 2:43:46 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-43153"]
+нояб. 19, 2022 2:43:47 PM exercise.servlet.SessionServlet login
+INFO: Пользователь с email: lavern.keeling@gmail.com авторизовался.
+нояб. 19, 2022 2:43:47 PM exercise.servlet.SessionServlet login
+INFO: Пользователь с email: shoshana.haley@hotmail.com авторизовался.
+нояб. 19, 2022 2:43:47 PM exercise.servlet.SessionServlet login
+INFO: Пользователь с email: suzann.barrows@hotmail.com авторизовался.
+нояб. 19, 2022 2:43:47 PM exercise.servlet.SessionServlet login
+INFO: Пользователь с email: lavern.keeling@gmail.com авторизовался.
+нояб. 19, 2022 2:43:48 PM exercise.servlet.SessionServlet login
+INFO: Пользователь с email: lavern.keeling@gmail.com авторизовался.
+нояб. 19, 2022 2:43:48 PM exercise.servlet.SessionServlet login
+INFO: Пользователь с email: lavern.keeling@gmail.com авторизовался.
+нояб. 19, 2022 2:43:48 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-43153"]
+нояб. 19, 2022 2:43:48 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+нояб. 19, 2022 2:43:48 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.base/java.io=null" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+нояб. 19, 2022 2:43:48 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=null" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+нояб. 19, 2022 2:43:48 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-43153"]
