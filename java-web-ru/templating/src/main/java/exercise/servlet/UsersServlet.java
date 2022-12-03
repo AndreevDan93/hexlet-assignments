@@ -31,7 +31,7 @@ public class UsersServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response)
-            throws IOException, ServletException {
+                throws IOException, ServletException {
 
         String pathInfo = request.getPathInfo();
 
@@ -56,8 +56,8 @@ public class UsersServlet extends HttpServlet {
 
     @Override
     public void doPost(HttpServletRequest request,
-                       HttpServletResponse response)
-            throws IOException, ServletException {
+                      HttpServletResponse response)
+                throws IOException, ServletException {
 
         String action = getAction(request);
 
@@ -71,20 +71,20 @@ public class UsersServlet extends HttpServlet {
     }
 
     private void showUsers(HttpServletRequest request,
-                           HttpServletResponse response)
-            throws IOException, ServletException {
+                          HttpServletResponse response)
+                throws IOException, ServletException {
 
         // BEGIN
         request.setAttribute("users", users);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("users.jsp");
-        requestDispatcher.forward(request, response);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/users.jsp");
+        requestDispatcher.forward(request,response);
         // END
     }
 
 
     private void showUser(HttpServletRequest request,
-                          HttpServletResponse response)
-            throws IOException, ServletException {
+                         HttpServletResponse response)
+                 throws IOException, ServletException {
         // Получаем id пользователя из строки запроса
         String id = getId(request);
 
@@ -97,16 +97,15 @@ public class UsersServlet extends HttpServlet {
             return;
         }
         // BEGIN
-
         request.setAttribute("user", user);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/show.jsp");
-        requestDispatcher.forward(request, response);
+        requestDispatcher.forward(request,response);
         // END
     }
 
     private void showDeletePage(HttpServletRequest request,
-                                HttpServletResponse response)
-            throws IOException, ServletException {
+                         HttpServletResponse response)
+                 throws IOException, ServletException {
 
         String id = getId(request);
 
@@ -118,15 +117,14 @@ public class UsersServlet extends HttpServlet {
         }
         // BEGIN
         request.setAttribute("user", user);
-
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/delete.jsp");
-        requestDispatcher.forward(request, response);
+        requestDispatcher.forward(request,response);
         // END
     }
 
     private void deleteUser(HttpServletRequest request,
-                            HttpServletResponse response)
-            throws IOException, ServletException {
+                         HttpServletResponse response)
+                 throws IOException, ServletException {
 
         String id = getId(request);
 
@@ -138,17 +136,19 @@ public class UsersServlet extends HttpServlet {
         }
         // BEGIN
         users.remove(user);
-        response.sendRedirect("/users");
+        request.setAttribute("users", users);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/users.jsp");
+        requestDispatcher.forward(request, response);
         // END
 
     }
 
     private Map<String, String> getUserById(String id) {
         Map<String, String> user = users
-                .stream()
-                .filter(u -> u.get("id").equals(id))
-                .findAny()
-                .orElse(null);
+            .stream()
+            .filter(u -> u.get("id").equals(id))
+            .findAny()
+            .orElse(null);
 
         return user;
     }
