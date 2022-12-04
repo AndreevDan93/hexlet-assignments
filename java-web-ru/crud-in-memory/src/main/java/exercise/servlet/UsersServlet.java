@@ -138,26 +138,25 @@ public class UsersServlet extends HttpServlet {
             throws IOException, ServletException {
 
         // BEGIN
-        String id = getNextId();
+        Map<String, String> user = new HashMap<>();
         String firstName = request.getParameter("firstName");
         String lastName = request.getParameter("lastName");
         String email = request.getParameter("email");
-        Map<String, String> user = new HashMap<>();
-        user.put("id", id);
-        user.put("firstName", firstName);
-        user.put("lastName", lastName);
-        user.put("email", email);
-        if (firstName.isEmpty() || lastName.isEmpty()) {
-            // Если данные не прошли валидацию выполняем редирект с кодом 422 на страницу создания новой компании
+        String id = getNextId();
+
+        if (firstName.isEmpty()|| lastName.isEmpty() || email.isEmpty()) {
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("/new.jsp");
-            // Передаём туда введенные данные компании
-            request.setAttribute("users", users);
-            // И сообщение об ошибке
-            request.setAttribute("error", "Название компании не может быть пустым");
+            request.setAttribute("user", user);
+            request.setAttribute("error", "поле ввода не может быть пустым");
             response.setStatus(422);
             requestDispatcher.forward(request, response);
             return;
         }
+
+        user.put("id", id);
+        user.put("firstName", firstName);
+        user.put("lastName", lastName);
+        user.put("email", email);
 
         users.add(user);
         response.sendRedirect("/users");
@@ -179,6 +178,7 @@ public class UsersServlet extends HttpServlet {
 
         // BEGIN
         request.setAttribute("user", user);
+        request.setAttribute("error", "");
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/edit.jsp");
         requestDispatcher.forward(request, response);
         // END
@@ -198,25 +198,24 @@ public class UsersServlet extends HttpServlet {
         }
 
         // BEGIN
+
         String firstName = request.getParameter("firstName");
         String lastName = request.getParameter("lastName");
         String email = request.getParameter("email");
-        user.replace("firstName", user.get("firstName"), firstName);
-        user.replace("lastName", user.get("lastName"), lastName);
-        user.replace("email", user.get("email"), email);
-        if (firstName.isEmpty() || lastName.isEmpty()) {
-            // Если данные не прошли валидацию выполняем редирект с кодом 422 на страницу создания новой компании
+
+        if (firstName.isEmpty()|| lastName.isEmpty() || email.isEmpty()) {
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("/edit.jsp");
-            // Передаём туда введенные данные компании
-            request.setAttribute("users", users);
-            // И сообщение об ошибке
-            request.setAttribute("error", "Название компании не может быть пустым");
+            request.setAttribute("user", user);
+            request.setAttribute("error", "поле ввода не может быть пустым");
             response.setStatus(422);
             requestDispatcher.forward(request, response);
             return;
         }
 
-        //users.ad
+        user.put("firstName", firstName);
+        user.put("lastName", lastName);
+        user.put("email", email);
+
         response.sendRedirect("/users");
         // END
     }

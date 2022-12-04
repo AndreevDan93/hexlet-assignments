@@ -15,18 +15,21 @@
         <div class="container">
             <a href="/users">Все пользователи</a>
             <!-- BEGIN -->
-            <div>${error}</div>
-                        <form action="/users/new" method="post">
-                            <div class="mb-3">
-                                <label>Имя</label>
-                                <input class="form-control" type="text" name="firstName" value='${user.getOrDefault("firstName", "")}'>
-                                <label>Фамилия</label>
-                                <input class="form-control" type="text" name="lastName" value='${user.getOrDefault("lastName", "")}'>
-                                <label>Email</label>
-                                <input class="form-control" type="text" name="email" value='${user.getOrDefault("email", "")}'>
-                            </div>
-                            <button class="btn btn-primary" type="submit">Создать</button>
-                        </form>
+            <form action="/users/new" method="post">
+                <div class="mb-3">
+                    <label>Имя</label>
+                    <input class="form-control" type="text" name="firstName" value="">
+                </div>
+                <div class="mb-3">
+                    <label>Фамилия</label>
+                    <input class="form-control" type="text" name="lastName" value="">
+                </div>
+                <div class="mb-3">
+                    <label>eMail</label>
+                    <input class="form-control" type="text" name="email" value="">
+                </div>
+                <button class="btn btn-primary" type="submit">Создать</button>
+            </form>
             <!-- END -->
         </div>
     </body>

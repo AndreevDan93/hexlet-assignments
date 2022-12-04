@@ -15,18 +15,21 @@
         <div class="container">
             <a href="/users">Все пользователи</a>
             <!-- BEGIN -->
-             <a class="btn btn-primary" href="/users" role="button">Все пользователи</a>
-                        <form action="/users/edit?id=${user.get("id")}" method="post">
-                        <div class="mb-3">
-                            <label>Имя</label>
-                            <input class="form-control" type="text" name="firstName" value='${user.getOrDefault("firstName", "")}'>
-                            <label>Фамилия</label>
-                            <input class="form-control" type="text" name="lastName" value='${user.getOrDefault("lastName", "")}'>
-                            <label>Email</label>
-                            <input class="form-control" type="text" name="email" value='${user.getOrDefault("email", "")}'>
-                        </div>
-                        <button type="submit" class="btn btn-success">Сохранить</button>
-                        </form>
+            <form action="/users/edit?id=${user.get("id")}" method="post">
+                            <div class="mb-3">
+                                <label>Имя</label>
+                                <input class="form-control" type="text" name="firstName" value="${user.get("firstName")}">
+                            </div>
+                            <div class="mb-3">
+                                <label>Фамилия</label>
+                                <input class="form-control" type="text" name="lastName" value="${user.get("lastName")}">
+                            </div>
+                            <div class="mb-3">
+                                <label>eMail</label>
+                                <input class="form-control" type="text" name="email" value="${user.get("email")}">
+                            </div>
+                            <button class="btn btn-primary" type="submit">Изменить</button>
+            </form>
             <!-- END -->
         </div>
     </body>
