@@ -42,13 +42,15 @@
         <div class="container mt-3">
             <!-- BEGIN -->
              <c:choose>
-                            <c:when test='${sessionScope.flash != null}'>
-                                <div class="alert alert-info" role="alert">
-                                    ${sessionScope.flash}
-                                </div>
-                                <% session.removeAttribute("flash"); %>
-                            </c:when>
-                        </c:choose>
+                    <c:when test='${sessionScope.flash != null}'>
+                    <div class="alert alert-info" role="alert">
+                        ${sessionScope.flash}
+                    </div>
+                    <% session.removeAttribute("flash"); %>
+                </c:when>
+                <c:otherwise>
+                </c:otherwise>
+             </c:choose>
             <!-- END -->
             <jsp:doBody />
         </div>
