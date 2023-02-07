@@ -24,6 +24,6 @@ public class Meal {
 
     // Для самостоятельной работы
     // BEGIN
-    
+
     // END
 }

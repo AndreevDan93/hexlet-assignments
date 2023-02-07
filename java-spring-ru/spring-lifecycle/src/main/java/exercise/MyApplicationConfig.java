@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MyApplicationConfig {
     @Bean
-    public Daytime getDaytime(){
+    public Daytime getDaytime() {
         int currentHour = LocalDateTime.now().getHour();
 
         if (currentHour > 6 && currentHour < 12) {

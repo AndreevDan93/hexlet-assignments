@@ -1,6 +1,7 @@
 package exercise;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 import exercise.daytimes.Daytime;
@@ -14,8 +15,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+
 import org.springframework.context.ApplicationContext;
+
 import java.time.LocalDateTime;
 
 @SpringBootTest
@@ -26,7 +30,7 @@ public class AppTest {
     private MockMvc mockMvc;
 
     @Autowired
-    private  ApplicationContext ctx;
+    private ApplicationContext ctx;
 
     private Daytime getDayTime() {
         int hour = LocalDateTime.now().getHour();
@@ -46,13 +50,13 @@ public class AppTest {
     @Test
     void testGetGreeting() throws Exception {
         MockHttpServletResponse response = mockMvc
-            .perform(get("/daytime"))
-            .andReturn()
-            .getResponse();
+                .perform(get("/daytime"))
+                .andReturn()
+                .getResponse();
 
         assertThat(response.getStatus()).isEqualTo(200);
         assertThat(response.getContentAsString())
-            .contains(getDayTime().getName());
+                .contains(getDayTime().getName());
     }
 
     @Test
