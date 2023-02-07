@@ -15,13 +15,13 @@ import org.springframework.context.annotation.Configuration;
 public class MyApplicationConfig {
     @Bean
     public Daytime getDaytime() {
-        int currentHour = LocalDateTime.now().getHour();
+        int hour = LocalDateTime.now().getHour();
 
-        if (currentHour > 6 && currentHour < 12) {
+        if (hour >= 6 && hour < 12) {
             return new Morning();
-        } else if (currentHour > 12 && currentHour < 18) {
+        } else if (hour >= 12 && hour < 18) {
             return new Day();
-        } else if (currentHour > 18 && currentHour < 23) {
+        } else if (hour >= 18 && hour < 23) {
             return new Evening();
         } else {
             return new Night();
