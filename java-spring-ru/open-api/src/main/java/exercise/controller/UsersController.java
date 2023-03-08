@@ -25,8 +25,12 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 @RequestMapping("/users")
 public class UsersController {
 
+    private final UserRepository userRepository;
+
     @Autowired
-    private UserRepository userRepository;
+    public UsersController(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     // Аннотация отмечает метод контроллера как операцию
     // И определяет краткую информацию об этой рперации
@@ -37,6 +41,7 @@ public class UsersController {
     public Iterable<User> getUsers() {
         return this.userRepository.findAll();
     }
+
 
     @Operation(summary = "Get specific user by his id")
     // Контейнер для аннотаций @ApiResponse
@@ -58,6 +63,7 @@ public class UsersController {
                 .orElseThrow(() -> new UserNotFoundException(id));
     }
 
+
     @Operation(summary = "Create new user")
     @ApiResponse(responseCode = "201", description = "User created")
     @PostMapping(path = "")
@@ -67,6 +73,7 @@ public class UsersController {
             @RequestBody User user) {
         return userRepository.save(user);
     }
+
 
     @Operation(summary = "Delete user by his id")
     @ApiResponses(value = {
@@ -85,17 +92,16 @@ public class UsersController {
         userRepository.deleteById(id);
     }
 
+
     // BEGIN
     @Operation(summary = "Update user by his id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "User updated"),
             @ApiResponse(responseCode = "404", description = "User with that id not found")
     })
-    @PatchMapping(path = "/{id}")
-    public User updateUser(
-            @Parameter(description = "Id of user to be updated")
-            @PathVariable long id,
-            @RequestBody User user) {
+    @PatchMapping("{id}")
+    public User updateUser(@Parameter(description = "Id of user to be updated") @PathVariable long id,
+                           @Parameter(description = "Uer data to update") @RequestBody User user) {
         if (!userRepository.existsById(id)) {
             throw new UserNotFoundException(id);
         }

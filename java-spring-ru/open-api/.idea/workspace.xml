@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10a598ec-847f-458f-9cbd-f5ab2b7707ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../finite-state-machine/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../relations/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-tests/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-oop-ru/code-generation/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-oop-ru/code-generation/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-oop-ru/patterns/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-oop-ru/patterns/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-oop-ru/patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-oop-ru/patterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-oop-ru/reflections/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-oop-ru/reflections/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-oop-ru/reflections/src/main/java/exercise/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-oop-ru/reflections/src/main/java/exercise/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/modules/authentication.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/java/exercise/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/src/test/resources/datasets/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentication/system.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/modules/authorization.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/model/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/java/exercise/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authorization/src/test/resources/datasets/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/examples/CustomAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/examples/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/examples/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/examples/Proxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/examples/Reflection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/java/exercise/CustomBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/java/exercise/Inspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/java/exercise/calculator/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/java/exercise/calculator/CalculatorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/java/exercise/controller/CalculationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../custom-annotations/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/modules/filtration.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/java/exercise/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/java/exercise/controller/UsersController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/java/exercise/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/java/exercise/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../filtration/src/test/resources/datasets/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finite-state-machine/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finite-state-machine/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finite-state-machine/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finite-state-machine/src/main/java/exercise/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finite-state-machine/src/main/java/exercise/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finite-state-machine/src/main/java/exercise/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../finite-state-machine/src/main/java/exercise/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-spring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-spring/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-spring/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-spring/src/main/java/exercise/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-spring/src/main/java/exercise/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-spring/src/main/java/exercise/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-spring/src/main/java/exercise/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/src/main/java/exercise/controller/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../migrations/src/main/java/exercise/controller/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../migrations/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../migrations/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/modules/nested-resources.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/model/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/repository/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/java/exercise/repository/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/test/java/exercise/CommentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/test/java/exercise/PostTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nested-resources/src/test/resources/datasets/posts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hexlet.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/hexlet.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/modules/producer/producer.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/main/java/exercise/QueueListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/main/java/exercise/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/main/java/exercise/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/consumer/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/examples/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/examples/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/examples/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/MessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/RabbitMqConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/java/exercise/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/producer/src/test/resources/datasets/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../queues/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relations/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relations/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../relations/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relations/hexlet.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../relations/hexlet.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relations/src/main/java/exercise/controller/ArticlesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../relations/src/main/java/exercise/controller/ArticlesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relations/src/main/java/exercise/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../relations/src/main/java/exercise/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../relations/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../relations/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/modules/service-layer.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/examples/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/examples/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/examples/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/CityNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/HttpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/controller/CityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/controller/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/model/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/repository/CityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/java/exercise/service/WeatherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service-layer/src/test/resources/datasets/cities.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/examples/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/examples/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/examples/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/examples/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/examples/PostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/CustomBeanPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/Meal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/MyApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/daytimes/Day.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/daytimes/Daytime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/daytimes/Evening.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/daytimes/Morning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/java/exercise/daytimes/Night.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-lifecycle/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-orm/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/hexlet.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-orm/hexlet.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/hexlet.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/src/main/java/exercise/controller/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-orm/src/main/java/exercise/controller/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/src/main/java/exercise/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-orm/src/main/java/exercise/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-orm/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-orm/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-tests/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-tests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-tests/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-tests/src/test/java/exercise/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-tests/src/test/java/exercise/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/src/main/java/exercise/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trees/src/main/java/exercise/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/java/exercise/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/java/exercise/servlet/UsersServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/webapp/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/webapp/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/webapp/new.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/webapp/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/webapp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/main/webapp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/crud-in-memory/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/src/main/java/exercise/servlet/UsersServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/src/main/resources/users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/html/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/http/solution" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-web-ru/http/solution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/hexlet.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/hexlet.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/java/exercise/MigrationGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/java/exercise/controllers/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/java/exercise/controllers/RootController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/java/exercise/domain/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/java/exercise/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/dbmigration/h2/1.0__initial.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/dbmigration/model/1.0__initial.model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/articles/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/articles/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/articles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/articles/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/articles/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/main/resources/templates/layouts/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/test/resources/application-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/javalin/src/test/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/java/exercise/TemplateEngineUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/java/exercise/servlet/ArticlesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/webapp/WEB-INF/templates/articles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/webapp/WEB-INF/templates/articles/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/main/webapp/WEB-INF/templates/layouts/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/jdbc/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/LoggerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/TemplateEngineUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/servlet/SessionServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/servlet/UsersServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/webapp/WEB-INF/templates/layouts/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/webapp/WEB-INF/templates/session/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/webapp/WEB-INF/templates/users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/main/webapp/WEB-INF/templates/users/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/logging/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/hexlet.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/hexlet.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/MigrationGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/TemplateEngineUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/domain/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/domain/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/servlet/ArticlesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/resources/dbmigration/h2/1.0__initial.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/resources/dbmigration/model/1.0__initial.model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/webapp/WEB-INF/templates/articles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/webapp/WEB-INF/templates/articles/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/webapp/WEB-INF/templates/articles/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/main/webapp/WEB-INF/templates/layouts/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/test/resources/application-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/orm/src/test/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/java/exercise/MigrationGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/java/exercise/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/java/exercise/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/resources/dbmigration/h2/1.0__initial.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/resources/dbmigration/model/1.0__initial.model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/main/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/test/resources/application-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/test/resources/fixtures/newUser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/test/resources/fixtures/updatedUser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/rest-api/src/test/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/servlet/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/session/src/main/java/exercise/servlet/SessionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-web-ru/session/src/main/java/exercise/servlet/SessionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/session/src/main/webapp/WEB-INF/tags/application.tag" beforeDir="false" afterPath="$PROJECT_DIR$/../../java-web-ru/session/src/main/webapp/WEB-INF/tags/application.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/examples/Example.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/solution.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/sql/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/java/exercise/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/java/exercise/servlet/UsersServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/java/exercise/servlet/WelcomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/webapp/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/webapp/show.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/webapp/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/main/webapp/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/templating/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/hexlet.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/java/exercise/MigrationGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/java/exercise/controllers/RootController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/java/exercise/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/java/exercise/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/dbmigration/h2/1.0__initial.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/dbmigration/model/1.0__initial.model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/templates/layouts/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/templates/users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/templates/users/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/main/resources/templates/users/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/test/resources/application-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/tests/src/test/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/examples/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/java/exercise/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/java/exercise/MigrationGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/java/exercise/controllers/RootController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/java/exercise/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/java/exercise/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/dbmigration/h2/1.0__initial.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/dbmigration/model/1.0__initial.model.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/seed.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/templates/layouts/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/templates/users/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/templates/users/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/main/resources/templates/users/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/test/java/exercise/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/test/resources/application-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java-web-ru/validation/src/test/resources/seed.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MitbI7LYPdlNgcWKYHO33DRDvl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/andreevdan83/Hexlet/hexlet-assignments/java-spring-ru/open-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Makefile Target.test">
+    <configuration name="api-doc" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="api-doc" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="start" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="test" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="open-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="exercise.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.test" />
+        <item itemvalue="Makefile Target.start" />
+        <item itemvalue="Makefile Target.api-doc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10a598ec-847f-458f-9cbd-f5ab2b7707ee" name="Changes" comment="" />
+      <created>1678262300515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678262300515</updated>
+      <workItem from="1678262302114" duration="3117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
