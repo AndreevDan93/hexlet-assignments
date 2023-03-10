@@ -1,7 +1,7 @@
 package exercise.repository;
 
 import exercise.model.User;
-//import org.springframework.data.repository.CrudRepository;
+// import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.querydsl.binding.QuerydslBinderCustomizer;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -14,17 +14,17 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserRepository extends
-        JpaRepository<User, Long>,
-        QuerydslPredicateExecutor<User>,
-        QuerydslBinderCustomizer<QUser> {
+    JpaRepository<User, Long>,
+    QuerydslPredicateExecutor<User>,
+    QuerydslBinderCustomizer<QUser> {
 
     @Override
     default void customize(QuerydslBindings bindings, QUser user) {
         // Дополнительная задача
 
         // BEGIN
-        bindings.bind(String.class).first((StringPath path, String value) -> path.containsIgnoreCase(value));
-        bindings.excluding(user.gender);
+        
         // END
     }
+
 }
